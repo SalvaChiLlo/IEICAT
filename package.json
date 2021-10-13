@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SalvaChiLlo/IEICAT/issues"
   },
-  "homepage": "https://github.com/SalvaChiLlo/IEICAT#readme"
+  "homepage": "https://github.com/SalvaChiLlo/IEICAT#readme",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  }
 }
