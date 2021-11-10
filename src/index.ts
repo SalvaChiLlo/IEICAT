@@ -1,4 +1,5 @@
 const converter = require('xml-js');
+const fs = require('fs');
 
 export function convertXMLToJSON(data: string) {
   console.log('Parsing XML')
@@ -50,3 +51,5 @@ function parsePropiedades(propiedades: any) {
 
   return res;
 }
+
+// fs.writeFileSync('./cat.json', JSON.stringify({ bibliotecas: fs.readFileSync('./biblioteques.xml').toString() }));
